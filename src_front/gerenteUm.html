@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="gerenteUmcss.css">
+    <link rel="icon" href="BodycodeIcon.png">
+
+    <title>Classificação e Relatório de Alunos - BodyCode</title>
+    
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>Classificação e Relatório de Alunos</h1>
+            
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="input-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf">
+                </div>
+                <div class="input-group">
+                    <label for="total">Total horas semanais</label>
+                    <input type="text" id="total" name="total">
+                </div>
+                <div class="input-group">
+                    <label for="classificacao">Classificação</label>
+                    <select id="classificacao" name="classificacao">
+                        <option value="iniciante">Iniciante (5 horas)</option>
+                        <option value="intermediario">Intermediário (6-10 horas)</option>
+                        <option value="avancado">Avançado (11-20 horas)</option>
+                        <option value="extremamente-avancado">Extremamente Avançado (+20 horas)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button type="button">Adicionar</button>
+            </div>
+
+        </div>
+    </div>
+
+    <video id="video-background" autoplay loop muted>
+        <source src="backgroundVideo.mp4" type="video/mp4">
+    </video>
+
+    
+</body>
+</html>
