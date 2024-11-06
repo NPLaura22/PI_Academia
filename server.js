@@ -34,6 +34,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'src_front', 'login.html'));
 });
 
+
 // INICIALIZA SERVIDOR
 app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
